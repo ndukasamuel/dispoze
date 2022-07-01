@@ -43,6 +43,12 @@
     width: 150px;
     align-content: center;
 }
+.dc{
+    background: #17A100;
+}
+.c{
+    color: #17A100;
+}
 @media(max-width: 1441px) {
     .main-section, .success {
         width: 75%;
