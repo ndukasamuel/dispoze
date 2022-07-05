@@ -36,15 +36,15 @@
 .continue p{
     width: 100%;
 }
-/* p{
-    width: 100%;
-} */
+form i{
+    margin-left: -30px;
+}
 .social img{
     width: 150px;
     align-content: center;
 }
 .dc{
-    background: #17A100;
+    background: rgb(23, 162, 0, 0.5);
 }
 .c{
     color: #17A100;
@@ -82,7 +82,7 @@
 }
 @media(max-width: 769px) {
     .main-section, .success {
-        width: 75%;
+        width: 85%;
     }
     label{
         font-size: 12px !important;
