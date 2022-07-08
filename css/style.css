@@ -8,6 +8,18 @@
     font-family: 'Inter', sans-serif
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+header,
+footer {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.nav-link.active {
+    color: black !important;
+    border-bottom: none !important;
+}
+
 .main-section{
     width: 60%;
 }
@@ -96,6 +108,21 @@ form i{
     .success {
         margin: 15% auto;
     }
+    .nav-link {
+        color: black !important;
+    }
+
+    .nav-link.active {
+        border-bottom: none !important;
+    }
+
+    #sign-up {
+        background-color: transparent !important;
+    }
+
+    .width-md {
+        width: 100% !important;
+    }
 }
 @media(max-width: 426px) {
     .main-section, .success{
@@ -106,5 +133,16 @@ form i{
     }
     .btn{
         width: 100%!important;
+    }
+    #width {
+        width: 100% !important;
+    }
+    
+    .input-group .form-control,
+    .input-group #button-addon2 {
+        border-radius: 7px !important;
+    }
+    .navbar > .container-fluid {
+        display: none;
     }
 }

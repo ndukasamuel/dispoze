@@ -13,14 +13,44 @@ function isFilled(){
 isFilled();
 
 
-const togglePassword = document.querySelector("#togglePassword");
-        const password = document.querySelector("#password");
+var togglePassword = document.querySelector("#togglePassword");
+var password = document.querySelector("#password");
 
-        togglePassword.addEventListener("click", function () {
-            // toggle the type attribute
-            const type = password.getAttribute("type") === "password" ? "text" : "password";
-            password.setAttribute("type", type);
-            
-            // toggle the icon
-            this.classList.toggle("bi-eye");
-        });
+togglePassword.onclick = function () {
+    if (password.type === "password") {
+        password.type = "text";
+    }
+    else
+    {
+        password.type = "password";
+    }
+}
+
+var link = document.querySelector(".hide");
+var pass = document.querySelector("#repassword");
+
+link.onclick = function () {
+    if (pass.type === "password") {
+        pass.type = "text";
+    }
+    else
+    {
+        pass.type = "password";
+    }
+}
+
+
+
+
+
+// const password = document.getElementById("password");
+//     const togglePassword = document.getElementById("toggle-password");
+//     togglePassword.addEventListener("click", toggleClicked);
+// function toggleClicked() {
+//     password.classList.toggle("visible");
+//     if (this.checked) {
+//         password.type = "text";
+//     } else {
+//         password.type = "password";
+//     }
+// }
