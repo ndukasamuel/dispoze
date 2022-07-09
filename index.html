@@ -20,51 +20,52 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid px-2 px-lg-5">
-                <a class="navbar-brand" style="font-weight: 600; font-size: 30px; color: black;" href="#">Dispoze</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item me-4">
-                            <a class="text-decoration-none text-dark d-lg-none" style="font-weight: 400; font-size: 18px;"
-                                href="#">MENU</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link active" style="font-weight: 400; font-size: 18px;" aria-current="page"
-                                href="#"><img src="img/home.png" alt="icon" class="me-4 d-lg-none">Home</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="shop.html"><img
-                                    src="img/shop.png" alt="icon" class="me-4 d-lg-none">Shop</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#"> <img
-                                    src="img/people.png" alt="icon" class="me-4 d-lg-none">About Us</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#"><img
-                                    src="img/messages-3.png" alt="icon" class="me-4 d-lg-none">Contact Us</a>
-                        </li>
-                        <li class="d-none">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link me-lg-3" style="font-weight: 400; font-size: 18px; color:  #17A200;"
-                                href="#"><img src="img/login.png" alt="icon" class="me-4 d-lg-none">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white rounded px-lg-3 py-1" id="sign-up"
-                                style="font-weight: 400; font-size: 18px; background-color:  #17A200;" href="#"><img
-                                    src="img/user-add.png" alt="icon" class="me-4 d-lg-none">Signup
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+              <a class="navbar-brand" style="font-weight: 600; font-size: 30px;" href="#">Dispoze</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-lg-0">
+                  <li class="nav-item me-4">
+                    <a class="text-decoration-none text-dark d-lg-none" style="font-weight: 400; font-size: 18px;" href="#">MENU</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link link-dark active" style="font-weight: 400; font-size: 18px;" aria-current="page" href="registered-user-homepage.html"><img src="img/home.png" alt="icon" class="me-4 d-lg-none">Home</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="shop.html"><img src="img/shop.png" alt="icon" class="me-4 d-lg-none">Shop</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="about-us,html"> <img src="img/people.png" alt="icon" class="me-4 d-lg-none">About Us</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#footer"><img src="img/messages-3.png" alt="icon" class="me-4 d-lg-none">Contact Us</a>
+                  </li>     
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-1">
+                        <button type="button" class="btn btn-outline-white px-0 px-lg-3 py-0" id="not-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <img src="img/notification.png" alt="logo"><span class="d-lg-none ps-1 ms-3" style="font-weight: 400; font-size: 18px;">Notifications</span>
+                        </button>
+                    </li>
+                    <li class="nav-item dropdown d-none d-lg-block">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/profile-circle.png" alt="icon">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="font-weight: 400; font-size: 18px;" href="profile.html"><img src="img/profile-circle.png" alt="icon" class="me-3">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="font-weight: 400; font-size: 18px; color :#FA0000;" href="login.html"><img src="img/logout.png" alt="icon" class="me-3">Sign-Out</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item mb-1 d-lg-none">
+                        <a class="nav-link link-dark" href="profile.html"><img src="img/profile-circle.png" alt="icon"><span class="d-lg-none ps-4" style="font-weight: 400; font-size: 18px;">Profile</span></a>
+                    </li>
+                    <li class="nav-item mb-1 d-lg-none">
+                        <a class="nav-link" href="login.html" style="font-weight: 400; font-size: 18px; color :#FA0000;"><img src="img/logout.png" alt="icon" class="pe-4">Sign-Out</a>
+                    </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header>
@@ -156,84 +157,66 @@
             </form>
     </section>
 
-    <footer class="container-fluid">
-        <div class=" px-2 px-lg-5 py-5">
+    <footer class="container-fluid" id="footer">
+        <div class="px-2 px-lg-5 py-5">
             <div class="row">
-                <div class="col-12 col-lg-6 col-md-12 mb-4 mb-lg-0">
-                    <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Stay Connected</h6>
-                    <p id="width" class="w-75 mb-4 width-md" style="font-weight: 400; font-size: 16px;">Subscribe to our
-                        newsletter to join over 1,500 persons who receive updates about our offers and changes in policy.
-                        You can unsubscribe anytime!</p>
-                    <div class="input-group flex-column flex-md-row flex-lg-row w-75" id="width">
-                        <input type="email" class="form-control mb-3 mb-md-0 mb-lg-0" placeholder="example@domain.com"
-                            aria-label="Recipient's email" aria-describedby="button-addon2" id="width">
-                        <button class="btn py-0"
-                            style="font-weight: 400; font-size: 24px; background-color:  #17A200; color: #fff;"
-                            type="button" id="button-addon2">Subscribe</button>
-                    </div>
+              <div class="col-12 col-lg-6 col-md-12 mb-4 mb-lg-0"> 
+                <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Stay Connected</h6>
+                <p id="width" class="w-75 mb-4 width-md" style="font-weight: 400; font-size: 16px;">Subscribe to our newsletter to join over 1,500 persons who receive updates about our offers and changes in policy. You can unsubscribe anytime!</p>
+                <div class="input-group flex-column flex-md-row flex-lg-row w-75" id="width">
+                    <input type="email" class="form-control mb-3 mb-md-0 mb-lg-0" placeholder="example@domain.com" aria-label="Recipient's email" aria-describedby="button-addon2" id="width">
+                    <button class="btn py-0" style="font-weight: 400; font-size: 24px; background-color:  #17A200; color: #fff;" type="button" id="button-addon2">Subscribe</button>
                 </div>
-                <div class="col-12 col-lg-6 col-md-12 ps-lg-5 pt-3 pt-md-2 pt-lg-0">
-                    <div class="row">
-                        <div class="col-12 col-md-6 ps-lg-2 pe-md-5">
-                            <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Quick Links</h6>
-                            <ul class="list-unstyled ps-1">
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Home</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Services</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Recent
-                                        Projects</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Request Pick
-                                        Up</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-md-6 ps-lg-2 ps-md-5">
-                            <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Contact Us</h6>
-                            <ul class="list-unstyled">
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img
-                                            src="img/instagram 1.png" alt="logo" class="me-2">Instagram</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img
-                                            src="img/twitter 1.png" alt="logo" class="me-2"> Twitter</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img
-                                            src="img/linkedin 1.png" alt="logo" class="me-2"> LinkedIn</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img
-                                            src="img/facebook 1.png" alt="logo" class="me-2"> Facebook</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-decoration-none text-dark"
-                                        style="font-weight: 400; font-size: 16px; color: #383838;"
-                                        href="mailto:somebody@domain.com"><img src="img/mail 1.png" alt="logo" class="me-2">
-                                        Email</a>
-                                </li>
-                            </ul>
-                        </div>
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 ps-lg-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 ps-lg-5 pe-md-5">
+                        <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Quick Links</h6>
+                        <ul class="list-unstyled ps-1">
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="registered-user-homepage.html">Home</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Services</a>
+                            </li>
+                            <li class="mb-3"> 
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Recent Projects</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#">Request Pick Up</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                    <div class="col-12 col-md-6 ps-lg-5 ps-md-5">
+                        <h6 class="mb-4" style="font-weight: 600; font-size: 18px; color: #1F1F1F;">Contact Us</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img src="img/instagram 1.png" alt="logo" class="me-2">Instagram</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img src="img/twitter 1.png" alt="logo" class="me-2"> Twitter</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img src="img/linkedin 1.png" alt="logo" class="me-2"> LinkedIn</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="#"><img src="img/facebook 1.png" alt="logo" class="me-2"> Facebook</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-decoration-none text-dark" style="font-weight: 400; font-size: 16px; color: #383838;" href="mailto:somebody@domain.com"><img src="img/mail 1.png" alt="logo" class="me-2"> Email</a>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
             </div>
         </div>
     </footer>
     <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
