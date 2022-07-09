@@ -142,7 +142,4 @@ form i{
     .input-group #button-addon2 {
         border-radius: 7px !important;
     }
-    .navbar > .container-fluid {
-        display: none;
-    }
 }
