@@ -134,8 +134,11 @@ form i{
         margin: 30% auto;
     }
     .btn{
-        width: 100%!important;
+        /* width: 100%!important; */
     }
+    .c{
+        width: 100%!important;
+    } 
     #width {
         width: 100% !important;
     }
