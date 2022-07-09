@@ -60,7 +60,8 @@ form i{
     background: rgb(23, 162, 0, 0.5);
 }
 .c{
-    color: #17A100;
+    color: #ffffff;
+    background-color: #17A100;
 }
 @media(max-width: 1441px) {
     .main-section, .success {
