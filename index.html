@@ -27,63 +27,40 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item me-4">
                             <a class="text-decoration-none text-dark d-lg-none" style="font-weight: 400; font-size: 18px;"
                                 href="#">MENU</a>
                         </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link link-dark active" style="font-weight: 400; font-size: 18px;"
-                                aria-current="page" href="registered-user-homepage.html"><img src="img/home.png" alt="icon"
-                                    class="me-4 d-lg-none">Home</a>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" style="font-weight: 400; font-size: 18px;" aria-current="page" href="#"><img
+                                    src="img/home.png" alt="icon" class="me-4 d-lg-none">Home</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="nav-item me-3">
                             <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="shop.html"><img
                                     src="img/shop.png" alt="icon" class="me-4 d-lg-none">Shop</a>
                         </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="about-us,html">
-                                <img src="img/people.png" alt="icon" class="me-4 d-lg-none">About Us</a>
+                        <li class="nav-item me-3">
+                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#"> <img
+                                    src="img/people.png" alt="icon" class="me-4 d-lg-none">About Us</a>
                         </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#footer"><img
+                        <li class="nav-item me-3">
+                            <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#"><img
                                     src="img/messages-3.png" alt="icon" class="me-4 d-lg-none">Contact Us</a>
+                        </li>
+                        <li class="d-none">
+                            <a class="nav-link disabled">Disabled</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item mt-1">
-                            <button type="button" class="btn btn-outline-white j px-0 px-lg-3 py-0" id="not-btn"
-                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <img src="img/notification.png" alt="logo"><span class="d-lg-none ps-1 ms-3"
-                                    style="font-weight: 400; font-size: 18px;">Notifications</span>
-                            </button>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" style="font-weight: 400; font-size: 18px; color:  #17A200;"
+                                href="#"><img src="img/login.png" alt="icon" class="me-4 d-lg-none">Login</a>
                         </li>
-                        <li class="nav-item dropdown d-none d-lg-block">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="img/profile-circle.png" alt="icon">
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" style="font-weight: 400; font-size: 18px;"
-                                        href="profile.html"><img src="img/profile-circle.png" alt="icon"
-                                            class="me-3">Profile</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" style="font-weight: 400; font-size: 18px; color :#FA0000;"
-                                        href="login.html"><img src="img/logout.png" alt="icon" class="me-3">Sign-Out</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item mb-1 d-lg-none">
-                            <a class="nav-link link-dark" href="profile.html"><img src="img/profile-circle.png"
-                                    alt="icon"><span class="d-lg-none ps-4"
-                                    style="font-weight: 400; font-size: 18px;">Profile</span></a>
-                        </li>
-                        <li class="nav-item mb-1 d-lg-none">
-                            <a class="nav-link" href="login.html"
-                                style="font-weight: 400; font-size: 18px; color :#FA0000;"><img src="img/logout.png"
-                                    alt="icon" class="pe-4">Sign-Out</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white rounded px-lg-3 py-1" id="sign-up"
+                                style="font-weight: 400; font-size: 18px; background-color:  #17A200;" href="#"><img
+                                    src="img/user-add.png" alt="icon" class="me-4 d-lg-none">Signup</a>
                         </li>
                     </ul>
                 </div>
@@ -94,86 +71,97 @@
     <section class="container main-section">
         <div class="my-5">
             <div class="text text-center fs-1">
-                <h3 class="fw-semibold"> Let’s Get to Know You!</h3>
-                <h5 class="fw-normal">Fill in your details to create an account.</h5> 
+                <h1 class=""> Let’s Get to Know You!</h3>
+                <p class="">Fill in your details to create an account.</p> 
             </div>
         </div>
         <div class="form mx-auto my-5 main-section">
             <form class="mt-5">
                 <div class="container fw-light fs-6">
-                    <div class="row my-4">
-                        <div class="mb-4">
-                            <label for="surname">Surname*</label>
-                            <input type="text" class="form-control" id="surname" placeholder="Enter your surname" onkeyup="isFilled()">
+                    <!-- surname and first name -->
+                        <div class="row my-4">
+                            <div class="col col-lg-6 col-md-12 col-sm-12">
+                                <label for="surname">Surname*</label>
+                                <input type="text" class="form-control" id="surname" placeholder="Enter your surname" onkeyup="isFilled()">
+                            </div>
+                            <div class="col-sm">
+                                <label for="firstname">Firstname*</label>
+                                <input type="text" class="form-control" id="surname" placeholder="Enter your first name" onkeyup="isFilled()">
+                            </div>
                         </div>
-                        <div class="">
-                            <label for="firstname">Firstname*</label>
-                            <input type="text" class="form-control" id="surname" placeholder="Enter your first name" onkeyup="isFilled()">
-                        </div>
-                    </div>
-                    <div class="row my-4">
-                        <div class="col-sm">
-                            <label for="surname">Email*</label>
-                            <input type="email" class="form-control" id="email" placeholder="example@domain.com" onkeyup="isFilled()">
-                        </div>
-                    </div>
-                    <div class="row my-4">
-                        <div class="mb-4">
-                            <label for="phonenumber">Phone No*</label>
-                            <input type="text" class="form-control" id="phonenumber" placeholder="E.G. 08012345678" onkeyup="isFilled()">
-                        </div>
-                        <div class="col-sm">
-                            <label for="phonenumber">Alternative Phone No. (Optional)</label>
-                            <input type="text" class="form-control" id="phonenumber" placeholder="E.G. 08012345678" onkeyup="isFilled()">
-                        </div>
-                    </div>
-                    <div class="row my-4">
-                        <div class="col-sm mb-2">
-                            <label for="password">Password*</label>
-                            <p class="d-flex align-items-center">
-                            <input type="password" class="form-control" id="password" placeholder="Create a new password"  onkeyup="isFilled()">
-                            <i class="bi bi-eye-slash" id="togglePassword"></i>
-                            </p>
-                        </div>
-                        <div class="col-sm">
-                            <label for="confirmpassword">Confirm Password*</label>
-                            <p class="d-flex align-items-center">
-                            <input type="password" class="form-control" id="repassword" placeholder="Re-enter new password" onkeyup="isFilled()">
-                            <i class="bi bi-eye-slash hide" id="retogglePassword"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Password requirements:</p>
-                        <ul>
-                            <li>Must be at least 8 characters long.</li>
-                            <li>Must contain a special character.</li>
-                        </ul>
-                    </div>
-
-                    <div class="d-grid gap-2 my-5">
-                        <a href="successful.html"></a><button id="btn" class="btn btn-primary btn-outline-light btn-success dc" type="button">Sign Up</button></a>
-                    </div>
                     
-                    <div class="my-auto d-flex">
-                        <p>Already have an account?</p>
-                        <p class="text-success ms-2 c">Login</p>
-                    </div>
-                    <div class="d-flex continue align-items-center my-5">
-                        <div class="line"></div>
-                        <div>
-                        <p class="me-5 text-center mt-3">
-                            Or continue with
-                        </p> 
+                    <!-- email -->
+                        <div class="row my-4">
+                            <div class="col-sm">
+                                <label for="surname">Email*</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@domain.com" onkeyup="isFilled()">
+                            </div>
                         </div>
-                        <div class="line"></div>
-                    </div>
+                    
+                    <!-- phone number -->
+                        <div class="row my-4">
+                            <div class="col col col-lg-6 col-md-12 col-sm-12">
+                                <label for="phonenumber">Phone No*</label>
+                                <input type="text" class="form-control" id="phonenumber" placeholder="E.G. 08012345678" onkeyup="isFilled()">
+                            </div>
+                            <div class="col-lg-6 col-sm-12 ">
+                                <label for="phonenumber">Alternative Phone No. (Optional)</label>
+                                <input type="text" class="form-control" id="phonenumber" placeholder="E.G. 08012345678" onkeyup="isFilled()">
+                            </div>
+                        </div>
 
-                    <div class="d-flex w-25 mx-auto justify-content-between my-4">
-                        <img src="./img/Google - jpeg 0.png" alt="" class="w-25">
-                        <img src="./img/Facebook - png 0.png" class="w-25" alt="">
-                        <img src="./img/Apple - png 0.png" class="w-25" alt="">
-                    </div>
+                    <!-- password -->
+                        <div class="row my-4">
+                            <div class=" col col-lg-6 col-md-12 col-sm-12">
+                                <label for="password">Password*</label>
+                                <p class="d-flex align-items-center">
+                                <input type="password" class="form-control" id="password" placeholder="Create a new password"  onkeyup="isFilled()">
+                                <i class="bi bi-eye-slash" id="togglePassword"></i>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <label for="confirmpassword">Confirm Password*</label>
+                                <p class="d-flex align-items-center">
+                                <input type="password" class="form-control" id="repassword" placeholder="Re-enter new password" onkeyup="isFilled()">
+                                <i class="bi bi-eye-slash hide" id="retogglePassword"></i>
+                                </p>
+                            </div>
+                        </div>
+
+                    <!-- foot notes -->
+                        <div>
+                            <p>Password requirements:</p>
+                            <ul>
+                                <li>Must be at least 8 characters long.</li>
+                                <li>Must contain a special character.</li>
+                            </ul>
+                        </div>
+
+                        <!-- signup button -->
+                        <div class="d-grid gap-2 my-5">
+                            <a href="successful.html"></a><button id="btn" class="btn btn-primary btn-outline-light btn-success dc" type="button">Sign Up</button></a>
+                        </div>
+                        
+                        <div class="my-auto d-flex">
+                            <p>Already have an account?</p>
+                            <p class="text-success ms-2 f">Login</p>
+                        </div>
+                        <div class="d-flex continue align-items-center my-5">
+                            <div class="line"></div>
+                            <div>
+                            <p class="me-5 text-center mt-3">
+                                Or continue with
+                            </p> 
+                            </div>
+                            <div class="line"></div>
+                        </div>
+
+                        <div class="d-flex w-25 mx-auto justify-content-between my-4">
+                            <img src="./img/Google - jpeg 0.png" alt="" class="w-25">
+                            <img src="./img/Facebook - png 0.png" class="w-25" alt="">
+                            <img src="./img/Apple - png 0.png" class="w-25" alt="">
+                        </div>
+                    
                 </div>
             </form>
     </section>

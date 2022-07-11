@@ -15,7 +15,19 @@ footer {
     font-family: 'Inter', sans-serif !important;
 }
 
+.text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
 
+.text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 400;
+}
 .nav-link.active {
     color: black !important;
     border-bottom: none !important;
@@ -62,6 +74,16 @@ form i{
 .c{
     color: #ffffff;
     background-color: #17A100;
+}
+
+label, .c, .f, p{
+    font-size: 16px;
+}
+
+.f{
+    color: #17A100;
+    font-size: 16px;
+    font-weight: 400;
 }
 @media(max-width: 1441px) {
     .main-section, .success {
