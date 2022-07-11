@@ -147,6 +147,9 @@ label, .c, .f, p{
     .width-md {
         width: 100% !important;
     }
+    .name, .phone{
+        margin-bottom: 4%;
+    }
 }
 @media(max-width: 426px) {
     .main-section, .success{
@@ -169,4 +172,14 @@ label, .c, .f, p{
     .input-group #button-addon2 {
         border-radius: 7px !important;
     }
+    .name, .phone {
+        margin-bottom: 4%;
+    }
+}
+
+
+/* Schedule pick-up */
+input[type= "select"] {
+    width: 100%;
+
 }
