@@ -107,7 +107,7 @@ label, .c, .f, p{
 }
 @media(max-width: 1025px){
     .main-section, .success{
-        width: 70%;
+        width: 75%;
     }
     .linegroup p {
         font: 16px;
