@@ -135,7 +135,17 @@ label, .c, .f, p{
         line-height: 19px;
         font-style: normal;
     }
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
     
+        .login a {
+            text-decoration: none;
+            color: #17A100;
+            font-size: 16px;
+            font-weight: 400;
+        }
 }
 @media(max-width: 769px) {
     .main-section, .success {
@@ -177,6 +187,17 @@ label, .c, .f, p{
         line-height: 19px;
         font-style: normal;
     }
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        .login a {
+            text-decoration: none;
+            color: #17A100;
+            font-size: 16px;
+            font-weight: 400;
+        }
 }
 @media(max-width: 426px) {
     .main-section, .success{
@@ -219,11 +240,15 @@ label, .c, .f, p{
         line-height: 19px;
         font-style: normal;
     }
-}
-
-
-/* Schedule pick-up */
-input[type= "select"] {
-    width: 100%;
-
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        .login a {
+            text-decoration: none;
+            color: #17A100;
+            font-size: 16px;
+            font-weight: 400;
+        }
 }
