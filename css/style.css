@@ -19,7 +19,11 @@ footer {
     font-size: 40px;
     font-weight: 600;
 }
-
+label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
 .text p{
     font-size: 20px;
     font-weight: 400;
@@ -79,8 +83,12 @@ form i{
 label, .c, .f, p{
     font-size: 16px;
 }
-
-.f{
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.login a{
+    text-decoration: none;
     color: #17A100;
     font-size: 16px;
     font-weight: 400;
@@ -104,6 +112,12 @@ label, .c, .f, p{
     .success {
         margin: 15% auto;
     }
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        font-style: normal;
+    }
 }
 @media(max-width: 1025px){
     .main-section, .success{
@@ -115,6 +129,13 @@ label, .c, .f, p{
     .success {
         margin: 20% auto;
     }
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        font-style: normal;
+    }
+    
 }
 @media(max-width: 769px) {
     .main-section, .success {
@@ -147,13 +168,30 @@ label, .c, .f, p{
     .width-md {
         width: 100% !important;
     }
-    .name, .phone{
+    /* .name, .phone{
         margin-bottom: 4%;
+    } */
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        font-style: normal;
     }
 }
 @media(max-width: 426px) {
     .main-section, .success{
         width: 100%;
+    }
+    .text h1{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    .text p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        font-style: normal;
     }
     .success{
         margin: 30% auto;
@@ -172,8 +210,14 @@ label, .c, .f, p{
     .input-group #button-addon2 {
         border-radius: 7px !important;
     }
-    .name, .phone {
+    /* .name, .phone {
         margin-bottom: 4%;
+    } */
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        font-style: normal;
     }
 }
 
